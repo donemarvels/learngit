@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录-中酒网</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+		<script src="js/denglu.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	</head>
+	<body style="background: #f7f7f7;">
+		<div class="load_wrap clearfix">
+			<!---------------头部------------->
+			<div class="load_top">
+				<ul class="top_l">
+					<li class="top_l1">
+						<a href="index.html"></a>
+					</li>
+					<li class="top_l2">登录</li>
+				</ul>
+				<ul class="top_r">
+					<li class="top_r1">100%正品</li>
+					<li class="top_r2">一时达</li>
+					<li class="top_r3">金牌服务</li>
+				</ul>
+			</div>
+			<!------------------主题部分------------------->
+			<div class="load_con">
+				<div class="load_con_l">
+				</div>
+				<!---------------登录部分---------------->
+				<form>
+					<div class="load_con_r">
+						<div class="r_con">
+							<div class="cell">
+								<label for="ouserId" id="userId_MoRen">
+									手机号
+								</label>
+								<input id="ouserId" type="text" class="text"/>
+								<span class="ok" id="ming" style="display: none;"></span>
+								<div class="cell_hid" id="error" style="display: none;">
+									<span class="sanj"></span>
+									<span id="kuang"></span>
+								</div>
+							</div>
+							<div class="cell">
+								<label for="passWord" id="tishi">
+									请输入密码
+								</label>
+								<input id="passWord" type="password" class="text"/>
+								<span class="ok" id="dengluOk" style="display: none;"></span>
+								<div class="cell_hid" id="denglu_error" style="display: none;">
+									<span class="sanj"></span>
+									<span id="denglu_xin"></span>
+								</div>
+							</div>
+							<div class="r_rem">
+								<input class="check" type="checkbox" id="jizhu"/>
+								<label class="r_rem1" for="jizhu">
+									记住用户名
+								</label>
+								<a class="r_rem2">
+									忘记密码？
+								</a>
+							</div>
+							<div class="r_load">
+								<input type="button" class="r_load_btn" value="登录" id="denglu"/>
+								<a class="r_load_zc" id="kuaizhu">
+									30秒注册»
+								</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		
+		</div>
+			<!------------------底部---------------------->
+		<div class="load_foot">
+				<p>
+					Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2
+				</p>
+				<p>
+					购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！
+				</p>
+			</div>
+	</body>
+</html>

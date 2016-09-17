@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+		<script src="js/xiangqing.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	</head>
+	<body>
+		<!--头部图图-->
+		<div id="top-lead">
+			<div class="box-lead">
+				<a href="javascript:;"></a>
+			</div>
+		</div>
+		<!--头部导航-->
+		<div id="top-nav">
+			<div class="w-clearfix">
+				<ul class="fl-clearfix" id="yonghu">
+					<li>
+						<i class="iconfont">&#xe601;</i>
+						<a href="#">中酒首页</a>
+					</li>
+					<li>Hi,欢迎来中酒</li>
+					<li><a href="#">请登录</a></li>
+					<li><a href="#" class="hlight">注册</a></li>
+				</ul>
+				<ul class="fr-clearfix">
+					<li>
+						<i class="iconfont">&#xe600;</i>
+						<a href="#">我的中国酒</a>
+					</li>
+					<li>
+						<i class="iconfont">&#xe602;</i>
+						<a href="javascript:;">手机版</a></li>
+					<li>
+						<i class="center-help"></i>
+						<a href="#">帮助中心</a></li>
+					<li><i class="iconfont">&#xe603;</i>订购电话:<strong class="hlight">400-798-9999</strong></li>
+					<li><a href="javascript:;" class="hlight">【重要公告】</a></li>
+					<li>
+						<span class="weibo-img">
+							<img src="img/weibo.png"/>
+							<img class="weibo" src="img/weibo2.png"/>
+						</span>
+					</li>
+					<li>
+						<span class="weixin-img">
+							<img src="img/weixin.png"/>
+							<img class="weixin" src="img/weixin2.jpg"/>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--搜索框-->
+		<div id="header-cont">
+			<div class="fl-logo">
+				<a href="index.html" target="_blank"></a>
+				<div class="gif">
+					<a href="javascript:;"><img src="img/0901gif.gif" /></a>
+				</div>
+			</div>
+			<div class="search">
+				<div class="search-wrap">
+					<div class="search-box">
+						<input name="" id="keyword" type="text" value="茅台" />
+					</div>
+					<div class="search-btn">
+						<input name="" type="submit" value="搜  索" />
+					</div>
+				</div>
+				<div class="hot-search">
+					<h2>热门搜索：</h2>
+					<a href="javascript:;">买一增一</a>
+					<a href="javascript:;">新人特权</a>
+					<a href="javascript:;">五粮液</a>
+					<a href="javascript:;">茅台</a>
+					<a href="javascript:;">国台</a>
+					<a href="javascript:;">泸州老窖</a>
+				</div>
+			</div>
+			<dl class="shopcar">
+				<dt>
+					<h3>
+						<i class="iconfont">&#xe604;</i>
+						<a href="javascript:;">我的购物车</a>
+						<span class="icon-count">
+							<i id="countid" class="count">0</i>
+						</span>
+					</h3>
+					<div class="xian"><div>
+				</dt>
+				<dd class="shopCartWrap dd">
+					<div class="con">
+						<h4 class="nothing">
+							<i></i>购物车中还没有商品，赶紧选购吧！
+						</h4>
+					</div>
+					<div class="con_one">
+						<h4 class="something">最新加入的商品</h4>
+						<ul class="goods-list clearfix">
+						
+						</ul>
+						<p class="sum">
+							<em class="highlight geshu"></em>
+							件商品
+							<em>共计</em>
+							<big class="highlight qianshu"></big>
+						</p>
+						<p class="go-acc clearfix">
+							<a>去购物车结算</a>
+						</p>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<!--主题部分-->
+		<!--主题中的nav-->
+		<div id="main-nav">
+			<div class="w">
+				<div id="category-nav" class="clearfix">
+					<h2>全部商品分类</h2>
+					<ul>
+						<li><h3>
+								<i class="icon-bai"></i>
+								<a href="javascript:;">名优白酒</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+						<li>
+							<h3>
+								<i class="icon-hong"></i>
+								<a href="javascript:;">葡萄酒/红酒</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+						<li>
+							<h3>
+								<i class="icon-yang"></i>
+								<a href="javascript:;">洋酒</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+						<li>
+							<h3>
+								<i class="icon-pi"></i>
+								<a href="javascript:;">黄酒</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+						<li>
+							<h3>
+								<i class="icon-li"></i>
+								<a href="javascript:;">礼品专区</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+						<li>
+							<h3>
+								<i class="icon-hun"></i>
+								<a href="javascript:;">婚庆专用</a>
+								<i class="icon-tri"></i>
+							</h3>
+						</li>
+					</ul>
+						
+				</div>
+				<ul id="mainTop-nav">
+					<li><a href="javascript:;">商城</a></li>
+					<li><a href="javascript:;" id="shangou">闪购</a></li>
+					<li><a href="javascript:;">白酒专场</a></li>
+					<li><a href="javascript:;">红酒专场</a></li>
+					<li><a href="javascript:;">青青裸酒</a></li>
+					<li><a href="javascript:;">美国优选</a></li>
+					<li><a href="javascript:;">新品驾到</a></li>
+					<li><a href="javascript:;">中酒资讯</a></li>
+					<li><a href="javascript:;">
+						<em class="hot"></em>
+						会员专区</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-------------------产品详情-------------------->
+		<div class="det_warp">
+			<div class="det_box">
+				<div class="cont_top clearfid">
+					<ul class="c_t_list">
+						<li>
+							<a href="javascript:;">中酒网首页</a>
+						</li>
+						
+
+					</ul>
+					<div class="td_tg">
+						<div class="td_tg_left">
+							<div class="p">
+								<i class="red">今日特卖：</i>
+								
+								<h1></h1>
+								
+							</div>
+							
+							
+						</div>
+						<div class="td_tg_right">
+							<div class="zs_img">
+								
+							</div>
+							<div class="gfzp">厂家直供破损赔付</div>
+							<div class="gm">
+								
+								
+								<span class="buy_pri"></span>
+								
+								
+								<a class="gm_a" href="javascript:;"></a>
+							</div>
+							<div class="zs_list"></div>
+							<div class="zs_list">
+								<i class="time"></i>
+								<p>还剩</p>
+								<em></em>
+							</div>
+							<div class="zs_list">
+								<i class="ren"></i>
+								<h3>4817人</h3>
+								已经购买
+								<p>
+									<span></span>
+									<span>收藏(4723)</span>
+								</p>
+							</div>
+							<div class="share">
+								<i>分享到：</i>
+								<div class="jiathis_style">
+									<span class="jiathis_txt jtico jtico_qzone"></span>
+									<span class="jiathis_txt jtico jtico_tsina"></span>
+									<span class="jiathis_txt jtico jtico_tqq"></span>
+									<span class="jiathis_txt jtico jtico_weixin"></span> 
+									<span class="jiathis_txt jtico jtico_cqq"></span>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-----------------商品详细信息----------------->
+				<div class="det_cont">
+					<!----------------左部分-------------->
+					<div class="det_cont_left">
+						<div class="cont_head">
+							<ul>
+								<li>
+									<a class="curre" href="#zjys2" id="zjys02">商品参数</a>
+								</li>
+								<li>
+									<a href="#zjys3" id="zjys03" class="">商品详情</a>
+								</li>
+								<li>
+									<a href="#zjys5" id="zjys05">用户口碑</a>
+								</li>
+							</ul>
+							<div class="qg">
+	
+								<span></span>
+								
+								<a href="javascript:;"></a>
+							</div>
+						</div>
+						<div class="san_bao">
+							<div class="s_b_cont">
+								<h3>品质保障</h3>
+								<p>我们保证所有出售的商品均为正品，品牌的保证源于完善的采购渠道管理，敢于承诺，源自对品牌的信心。</p>
+							</div>
+						
+							<div class="s_b_cont">
+								<h3>快速安全</h3>
+								<p>我们承诺在您下单后，我将会以秒计算，时间对于每个用户都是宝贵的，所以我们将全力以赴，缩短发货时间，将最好最快的货送到您的手中</p>
+							</div>
+
+							<div class="s_b_cont">
+								<h3>破损赔付</h3>
+								<p>在您收到货后我们承诺！坏了就换、破了就赔，确保您购物无风险，我们将第一时间为您办理</p>
+							</div>
+						</div>
+						<div class="product">
+							<div id="zjys2"></div>
+							<h3>
+								商品参数
+								<span>Specs</span>
+							</h3>
+							<div class="pd_canshu">
+								<ul>
+								
+								</ul>
+								<div class="pd_img">
+								
+								</div>
+							</div>
+							<div id="zjys3"></div>
+							<h3>
+								商品详情
+								<span>Details</span>
+							</h3>
+							<div class="pd_shipai">
+								<p style="text-align: center;">
+									
+									
+									
+									
+									
+									
+								</p>
+							</div>
+							<div id="zjys4"></div>
+						</div>
+						<div class="kou_bei" id="PingJia">
+							<div id="zjys5"></div>
+							<h3>
+								用户口碑
+								<span>Reviews</span>
+							</h3>
+							<div class="kou_bei_p">
+								<div class="k_b_left">
+									<div class="user_p">
+										<img src="img/phto.png" width="60" height="60">
+									</div>
+									<p>最后一***</p>
+								</div>
+								<div class="ping">
+									<div class="xing">
+										<img src="img/allstar_5.gif" width="88" height="17">
+									</div>
+									<p class="ping_text">
+										找到客人，用茅台最合适，一桌饭菜再随意的菜色，只要有一瓶茅台酒上桌，立马档次就显得大不一样。茅台酒一开，先给人一种莫名的激动，随之便是奇香溢满室，异芳举座惊。闻香之后，再荡香入杯，细观其色，微黄显透明，纯净无沉淀。举杯轻摇，对着日光或月光，则可看到细细的酒花沿杯而生，又复归于灭。
+									</p>
+									<div class="jiao2"></div>
+								</div>
+							</div>
+							<div class="kou_bei_p">
+								<div class="k_b_left">
+									<div class="user_p">
+										<img src="img/phto.png" width="60" height="60">
+									</div>
+									<p>无声***</p>
+								</div>
+								<div class="ping">
+									<div class="xing">
+										<img src="img/allstar_5.gif" width="88" height="17">
+									</div>
+									<p class="ping_text">
+										买来送给老丈人，吃饭的时候，老人家迫不及待的打开尝了尝，开瓶之后闻到了一股浓郁的一股酒香，细细的品过酒之后回味悠长，老人家很高兴，头一次见面酒拿下个好彩头！！
+									</p>
+									<div class="jiao2"></div>
+								</div>
+							</div>
+							<div class="kou_bei_p">
+								<div class="k_b_left">
+									<div class="user_p">
+										<img src="img/phto.png" width="60" height="60">
+									</div>
+									<p>荷***</p>
+								</div>
+								<div class="ping">
+									<div class="xing">
+										<img src="img/allstar_5.gif" width="88" height="17">
+									</div>
+									<p class="ping_text">
+										白酒一般都是纯粮固态发酵 喝起来不伤身体 网上买便宜啊
+									</p>
+									<div class="jiao2"></div>
+								</div>
+							</div>
+							<div class="kou_bei_p">
+								<div class="k_b_left">
+									<div class="user_p">
+										<img src="img/phto.png" width="60" height="60">
+									</div>
+									<p>旧旧***</p>
+								</div>
+								<div class="ping">
+									<div class="xing">
+										<img src="img/allstar_5.gif" width="88" height="17">
+									</div>
+									<p class="ping_text">
+										喝起来感觉比前年在实体店购买的味道好，比照茅台官网防伪查询方法验证，是真品。我家比较偏僻~送货小哥还特意给我单送一趟~真是辛苦了
+									</p>
+									<div class="jiao2"></div>
+								</div>
+							</div>
+							<div class="kou_bei_p">
+								<div class="k_b_left">
+									<div class="user_p">
+										<img src="img/phto.png" width="60" height="60">
+									</div>
+									<p>洋洋***</p>
+								</div>
+								<div class="ping">
+									<div class="xing">
+										<img src="img/allstar_5.gif" width="88" height="17">
+									</div>
+									<p class="ping_text">
+										非常满意！物流很快，包装结实！酒的口感很棒：口感浓香馥郁，酒体适中，无苦涩舒适，即使是初次喝酱香型的人也容易接受，请客吃饭用它非常棒！好酒需慢慢品！下次还来
+									</p>
+									<div class="jiao2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!------------------右部分-------------------->
+					<div class="det_cont_right">
+						<div class="right_box">
+							<h3>中酒网承诺</h3>
+							<div class="chen_nuo">
+								<div class="c_n_cont">
+									<i class="zhen"></i>
+									<h2>厂家直供</h2>
+									<p>品质放心</p>
+								</div>
+								<div class="c_n_cont">
+									<i class="chu"></i>
+									<h2>货到付款</h2>
+									<p>4万城镇直达</p>
+								</div>
+								<div class="c_n_cont">
+									<i class="fu"></i>
+									<h2>特色服务</h2>
+									<p>贴心服务</p>
+								</div>
+							</div>
+						</div>
+							<div class="right_box">
+								<h3>产品直达</h3>
+								<div class="tong">
+									<a href="javascript:;">白酒</a>
+									<a href="javascript:;">葡萄酒</a>
+									<a href="javascript:;">洋酒</a>
+									<a href="javascript:;">啤酒</a>
+									<a href="javascript:;">青稞酒</a>
+									<a href="javascript:;">黄酒</a>
+									<a href="javascript:;">预调酒</a>
+									<a href="javascript:;">酒具</a>
+								</div>
+							</div>
+							<div class="right_box_bfd">
+								<h3>看了又看</h3>
+								<ul class="tui_jian_bfd">
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/3878_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												52°出口型白西凤绵柔凤香型 500ml*6
+											</a>
+											<span class="red2_bfd">
+												￥499(1.7折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/3481_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												46°天润甘九道醇合家团圆 1000ml
+											</a>
+											<span class="red2_bfd">
+												￥89(1.8折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/80058_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												52°五粮液永不分离精品500ml（6瓶装）
+											</a>
+											<span class="red2_bfd">
+												￥149(2.5折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/2628_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												52°酒鬼酒醇香 500ml(买一赠一）
+											</a>
+											<span class="red2_bfd">
+												￥269(6.8折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/4073_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												53°一道泓酱香传奇 1000ml*2
+											</a>
+											<span class="red2_bfd">
+												￥99(0.8折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+									<li>
+										<div class="fl_lf_bfd">
+											<a href="javascript:;">
+												<img src="img/3577_330x345.jpg" width="100px" height="100px">
+											</a>
+										</div>
+										<p>
+											<a href="javascript:;">
+												52°泸州窖酒（窖藏龙窖）500ml*6
+											</a>
+											<span class="red2_bfd">
+												￥178(1.6折)
+											</span>
+											<span class="hui_bfd">
+												商城售卖
+											</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!---------------------尾部---------------------->
+		<div class="zj-floor">
+			<div class="line_bottom"></div>
+			<div class="zj_foot_tes_warp">
+				<div class="zj_foot_tes">
+					<ul class="foot_tes_list">
+						<li>
+							<i class="fangwei"></i>
+							<h3>品质保障</h3>
+							<p>厂家直供     真品防伪</p>
+						</li>
+						<li>
+							<i class="baozheng"></i>
+							<h3>酒类O2O</h3>
+							<p>线上线下标准化</p>
+						</li>
+						<li>
+							<i class="tuihuo"></i>
+							<h3>七天无理由退货</h3>
+							<p>拆封无条件退货</p>
+						</li>
+						<li>
+							<i class="jiameng"></i>
+							<h3>快速安全</h3>
+							<p>专业配送 安全送达</p>
+						</li>
+						<li>
+							<i class="yshida"></i>
+							<h3>百万口碑</h3>
+							<p>400万用户的认可</p>
+						</li>
+						<li class="mgno">
+							<i class="zhifu"></i>
+							<h3>特色服务</h3>
+							<p>7*12小时贴心服务</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="line_top"></div>
+			<div class="line_bottom"></div>
+			<div class="zj_foot_warp">
+				<div class="foot_service fl">
+					<dl>
+						<dt class="fs-gw">购物指南</dt>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">购物流程</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">常见问题</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">帮助中心</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">会员协议</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fs-ps">购物配送</dt>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">99免运费</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">配送说明</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">快递查询</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">验货与签收</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fs-zf">支付方式</dt>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">货到付款</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">支付宝</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">银联 信用卡</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">在线支付9.9折</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fs-fw">售后服务</dt>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">服务承诺</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">退款说明</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">退换货政策</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;" target="_blank">退换货流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="fs-bz">服务保障</dt>
+						<dd>
+							<a title="" href="javascript:;">真品防伪，四码合一</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7天无条件退货</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7*12小时贴心服务</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">30分钟快速响应</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="zj_weixin">
+					<div class="wx_box">
+						<h4>手机中酒</h4>
+						<img src="img/zj_phone.png" width="98" height="98">
+						<p>下载移动客户端</p>
+					</div>
+					<div class="wx_box">
+						<h4>中酒微信</h4>
+						<img src="img/zj_wx.png" width="98" height="98">
+						<p>中酒官方微信</p>
+					</div>
+				</div>
+			</div>
+			<div class="link">
+				<a title="" href="javascript:;" target="_blank">关于中酒</a>
+				<a title="" href="javascript:;" target="_blank">媒体报道 </a>
+				<a title="" href="javascript:;" target="_blank">商务合作</a>
+				<a title="" href="javascript:;" target="_blank">品牌入驻</a>
+				<a title="" href="javascript:;" target="_blank">加入中酒</a>
+				<a title="" href="javascript:;" target="_blank"> 商家加盟</a>
+				<a title="" href="javascript:;" target="_blank">联系我们</a>
+			</div>
+			<div class="zj_copyright">
+				<p>Copyright © 2016 中酒合生（北京）电子商务有限公司(www.zhongjiu.com.cn) 版权所有 </p>
+				<p><i class="red">购买前请确认达到法定饮酒年龄！</i>
+					中酒网不销售任何含酒精产品给18岁以下人士！</p>	
+			</div>
+			<div class="zj_lianhe">
+					<a title="" href="javascript:;" target="_blank">
+						<img src="img/ba.jpg" width="114" height="41">
+					</a>
+					<a title="" href="javascript:;" target="_blank">
+						<img src="img/cx.jpg" width="114" height="41">
+					</a>
+					<a title="" href="javascript:;" target="_blank">
+						<img src="img/aq.jpg" width="114" height="41">
+					</a>
+					<a title="" href="javascript:;" target="_blank">
+						<img src="img/dslsh.jpg?2" width="114" height="41">
+					</a>
+				</div>
+		</div>
+	</body>
+</html>

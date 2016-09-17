@@ -1,0 +1,42 @@
+[
+[{'src':'img/qita01.jpg','name':'42°泸州老窖浓香老窖青瓷 500ml（2瓶装）','pice':'￥89.00'},
+{'tu':'img/maiyi.png','src':'img/2.jpg','name':'52°泸州窖酒陶坛老酒500ml','pice':'￥188.00'},
+{'src':'img/qita03.jpg','name':'12°尧喝货清爽型黄酒500ml','pice':'￥19.00'},
+{'tu':'img/maiyi.png','src':'img/qita04.jpg','name':'52°千年老窖镖局高粱酒 500ml ','pice':'￥69.00'},
+{'src':'img/qita05.jpg','name':'52°出口型白西凤绵柔凤香型500ml（6瓶装）','pice':'￥499.00'},
+{'src':'img/qita06.jpg','name':'42°天佑德青稞酒海拔2600 500ml','pice':'￥48.00'},
+{'tu':'img/dejbj.png','src':'img/qita07.jpg','name':'52°鸭溪窖-古酿 500ml （6瓶装） ','pice':'￥389.00'},
+{'src':'img/qita08.jpg','name':'43°红星蓝瓶八年陈酿 500ml （12瓶装）','pice':'￥379.00'}],
+[{'src':'img/qita09.jpg','name':'40°绝对伏特加苹果梨味700ml','pice':'￥119.00'},
+{'src':'img/qita10.jpg','name':'5°深蓝伏特加预调酒（配制酒）蓝莓味275ml','pice':'￥25.00'},
+{'src':'img/qita11.jpg','name':'波士bols绿薄荷力娇酒 700ml','pice':'￥99.00'},
+{'src':'img/qita12.jpg','name':'法国葫芦绿薄荷酒 700ml','pice':'￥99.00'},
+{'src':'img/qita13.jpg','name':'百加得冰锐朗姆预调酒蜜桃味 275ml','pice':'￥11.90'},
+{'src':'img/qita14.jpg','name':'锐澳RIO鸡尾酒 6瓶组合装（6种口味）275ml','pice':'￥69.00'},
+{'src':'img/qita15.jpg','name':'3.8°锐澳RIO鸡尾酒朗姆酒青柠味275ml（2瓶装）','pice':'￥28.00'},
+{'src':'img/qita16.jpg','name':'3.8°锐澳RIO鸡尾酒预调酒紫葡萄味275ml','pice':'￥15.00'}],
+[{'src':'img/qita01.jpg','name':'42°泸州老窖浓香老窖青瓷 500ml（2瓶装）','pice':'￥89.00'},
+{'tu':'img/maiyi.png','src':'img/2.jpg','name':'52°泸州窖酒陶坛老酒500ml','pice':'￥188.00'},
+{'src':'img/qita03.jpg','name':'12°尧喝货清爽型黄酒500ml','pice':'￥19.00'},
+{'tu':'img/maiyi.png','src':'img/qita04.jpg','name':'52°千年老窖镖局高粱酒 500ml ','pice':'￥69.00'},
+{'src':'img/qita05.jpg','name':'52°出口型白西凤绵柔凤香型500ml（6瓶装）','pice':'￥499.00'},
+{'src':'img/qita06.jpg','name':'42°天佑德青稞酒海拔2600 500ml','pice':'￥48.00'},
+{'tu':'img/dejbj.png','src':'img/qita07.jpg','name':'52°鸭溪窖-古酿 500ml （6瓶装） ','pice':'￥389.00'},
+{'src':'img/qita08.jpg','name':'43°红星蓝瓶八年陈酿 500ml （12瓶装）','pice':'￥379.00'}],
+[{'src':'img/qita09.jpg','name':'40°绝对伏特加苹果梨味700ml','pice':'￥119.00'},
+{'src':'img/qita10.jpg','name':'5°深蓝伏特加预调酒（配制酒）蓝莓味275ml','pice':'￥25.00'},
+{'src':'img/qita11.jpg','name':'波士bols绿薄荷力娇酒 700ml','pice':'￥99.00'},
+{'src':'img/qita12.jpg','name':'法国葫芦绿薄荷酒 700ml','pice':'￥99.00'},
+{'src':'img/qita13.jpg','name':'百加得冰锐朗姆预调酒蜜桃味 275ml','pice':'￥11.90'},
+{'src':'img/qita14.jpg','name':'锐澳RIO鸡尾酒 6瓶组合装（6种口味）275ml','pice':'￥69.00'},
+{'src':'img/qita15.jpg','name':'3.8°锐澳RIO鸡尾酒朗姆酒青柠味275ml（2瓶装）','pice':'￥28.00'},
+{'src':'img/qita16.jpg','name':'3.8°锐澳RIO鸡尾酒预调酒紫葡萄味275ml','pice':'￥15.00'}]
+]
+
+
+
+
+
+
+
+

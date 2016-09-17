@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册-中国酒</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zhuce.js" type="text/javascript" charset="utf-8" defer="defer"></script>
+	</head>
+	<body>
+		<div class="load_wrap clearfix">
+			<!---------------头部------------->
+			<div class="load_top">
+				<ul class="top_l">
+					<li class="top_l1">
+						<a href="index.html"></a>
+					</li>
+					<li class="top_l2">登录</li>
+				</ul>
+				<ul class="top_r">
+					<li class="top_r1">100%正品</li>
+					<li class="top_r2">一时达</li>
+					<li class="top_r3">金牌服务</li>
+				</ul>
+			</div>
+			<!----------------主题部分--------------->
+			<div class="load_con">
+				<div class="load_con_l_reg"></div>
+				<!---------------右半部分--------------->
+				<form>
+				<div class="load_con_r">
+					<div class="r_con re_back">
+						<p class="re_back_link">
+							我已注册，马上
+							<a href="javascript:;" id="lulu">登录»</a>
+						</p>
+						<div class="cell">
+							<label for="userId" id="user">请输入手机号</label>
+							<input id="userId" type="text" class="text"/>
+							<span class="ok" id="user_ok" style="display: none;"></span>
+							<div class="cell_hid" id="userId_error" style="display: none;">								
+								<span class="sanj"></span>
+								<span id="userid">请输入正确的手机号</span>
+							</div>
+						</div>
+						<div id="userId_email" class="cell vcode">
+							<label for="yanZhengCode" id="yanzheng">
+								请输入验证码
+							</label>
+							<input type="text" class="text" id="yanZhengCode"/>
+							<span class="ok" id="zheng" style="display: none;"></span>
+							<div id="oYan" class="cell_hid" style="display: none;">
+								<span class="sanj"></span>
+								<span>请按右图输入验证码</span>
+							</div>
+							<div class="c_img" tltName="BYH2" id="oimg">
+								<a>
+									<img name="img_code" id="img_code" src="img/yanzheng.ashx"/>
+								</a>
+							</div>
+							<div class="c_ts">
+								<a>
+									看不清？<br>
+									换一张
+								</a>
+							</div>
+						</div>
+						<!--<div class="cell vcode">
+							<label for="code" id="yanZhengCode_moren">
+								请输入验证码
+							</label>
+							<input type="text" class="text" id="code"/>
+							<span class="ok" style="display: none;"></span>
+							<div class="cell_hid" style="display: none;">
+								<span class="sanj"></span>
+								<span></span>
+							</div>
+							<div class="c_yz">
+								<a>免费获取校验码</a>
+							</div>
+						</div>-->
+						<div class="cell">
+							<label for="passWord" id="passWord_moren">
+								请输入密码
+							</label>
+							<input type="password" id="passWord" class="text"/>
+							<span class="ok" id="passWord_ok" style="display: none;"></span>
+							<div class="cell_hid" style="display: none;" id="mimakuang">
+								<span class="sanj"></span>
+								<span id="mima"></span>
+							</div>
+						</div>
+						<div class="cell">
+							<label for="repeatPassWord" id="opass">
+								请输入确认密码
+							</label>
+							<input id="repeatPassWord" type="password" class="text"/>
+							<span class="ok" id="sure" style="display: none;"></span>
+							<div class="cell_hid" id="shuru" style="display: none;">
+								<span class="sanj"></span>
+								<span id="queren"></span>
+							</div>
+						</div>
+						<div class="r_load">
+							<input type="button" class="r_load_btn" value="同意协议并注册" id="sub">
+						</div>
+						<p class="tiaokuan">
+							<a href="javascript:;">
+								《中酒网服务条款》
+							</a>
+
+						</p>
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+		<!------------------底部------------------->
+		<div class="load_foot">
+			<p>
+				Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2
+			</p>
+			<p>
+				购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！
+			</p>
+		</div>
+	</body>
+</html>

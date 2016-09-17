@@ -1,0 +1,12 @@
+
+{'白酒':{'茅台':{'53°茅台王子酒（旧包装） 500ml（6瓶装）':{'head':{'oId':'1002','name':'【下单立减10元】53°茅台王子酒（旧包装） 500ml（6瓶装） 茅台王子酒，王子尊天下。 茅台王子酒和茅台产品有着天工地造　一脉相承 ，同宗同源　世家风范之称。 整箱屯酒更合适！','logo':'img/323_250x140.jpg','img':'img/3593_750x425.jpg','price':'￥529.0','spece':'img/xiangqing01.jpg'},'canshu':['品牌：','茅台','香型：','酱香型','原料：','水、高粱、小麦','酒精度：','53%vol','净含量：','500ml*6'],'detail':[{'heigth':'805','src':'img/maotaiwangzi_01.jpg'},{'height':'586','src':'img/maotaiwangzi_04.jpg'},{'height':'550','src':'img/maotaiwangzi_05.jpg'},{'height':'470','src':'img/maotaiwangzi_06.jpg'},{'height':'789','src':'img/maotaiwangzi_07.jpg'},
+{'height':'452','src':'img/maotaiwangzi_10.jpg'}]}},
+'五粮液':{'52°五粮液永不分离精品500ml（6瓶装）':{'head':{'oId':'1000','name':'【中秋好礼】】52°五粮液永不分离精品500ml（6瓶装） 五粮液永不分离酒，品名意味深长，妙趣天成。香气幽雅宜人、绵甜柔和。表达爱情、亲情、友情等世间真情！','logo':'img/322_250x140.jpg','img':'img/80058_750x425.jpg','price':'￥149.0','spece':'img/xiangqing02.jpg'},'canshu':['品牌：','五粮液','香型：','浓香型','产地：','河北邯郸','原料：','高粱、大米、糯米等','酒精度：','52度','净含量：','500ml*6'],'detail':[{'heigth':'561','src':'img/ybfl_01.jpg'},{'height':'493','src':'img/ybfl_02.jpg'},{'height':'651','src':'img/ybfl_03.jpg'},{'height':'580','src':'img/ybfl_04(1).jpg'},{'height':'1352','src':'img/ybfl_05.jpg'},
+{'height':'609','src':'img/ybfl_06.jpg'},{'height':'536','src':'img/ybfl_07.jpg'},
+{'height':'432','src':'img/ybfl_08.jpg'},{'height':'822','src':'img/ybfl_09.jpg'},{'height':'1157','src':'img/ybfl_10.jpg'},{'height':'454','src':'img/ybfl_11.jpg'}]}},
+'泸州老窖':{'52°国窖1573 500ml':{'head':{'oId':'1001','name':'【下单立减60元】52°国窖1573 500ml 品味之道，在乎稀有。源自1975国窖池群酿。酒体深蕴国窖特色，醇和绵甜。内在非凡，外在亦高贵，经典包装风格大气。','logo':'img/326_250x140.jpg','img':'img/672_750x425.jpg','price':'￥739.0','spece':'img/xiangqing03.jpg'},'canshu':['品牌：','泸州老窖','储藏方法：','恒温恒湿、避免光照、震动','香型：','浓香型','生产厂家：','泸州老窖股份有限公司','产地：','四川','原料：','水、高粱、小麦','酒精度：','高度白酒（50%以上）','净含量：','500ml'],'detail':[{'heigth':'561','src':'img/ybfl_01.jpg'},{'height':'493','src':'img/ybfl_02.jpg'},{'height':'651','src':'img/ybfl_03.jpg'},{'height':'580','src':'img/ybfl_04(1).jpg'},{'height':'1352','src':'img/ybfl_05.jpg'},
+{'height':'609','src':'img/ybfl_06.jpg'},{'height':'536','src':'img/ybfl_07.jpg'},
+{'height':'432','src':'img/ybfl_08.jpg'},{'height':'822','src':'img/ybfl_09.jpg'},{'height':'1157','src':'img/ybfl_10.jpg'},{'height':'454','src':'img/ybfl_11.jpg'}]}}
+}
+}
+
